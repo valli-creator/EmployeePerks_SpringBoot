@@ -20,10 +20,10 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.MyProject.restdemo.DAO.EmployeeDAO;
-import com.MyProject.restdemo.Service.EmployeeServiceImpl;
+import com.MyProject.restdemo.dao.EmployeeDAO;
 import com.MyProject.restdemo.entity.Employee;
 import com.MyProject.restdemo.entity.ResourceNotFoundException;
+import com.MyProject.restdemo.service.EmployeeServiceImpl;
 
 
 @ExtendWith(MockitoExtension.class)

@@ -1,4 +1,4 @@
-package com.MyProject.restdemo.Service;
+package com.MyProject.restdemo.service;
 
 import java.util.List;
 

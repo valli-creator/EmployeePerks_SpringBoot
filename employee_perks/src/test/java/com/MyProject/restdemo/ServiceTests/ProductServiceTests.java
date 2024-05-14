@@ -17,13 +17,13 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.MyProject.restdemo.DAO.EmployeeDAO;
-import com.MyProject.restdemo.DAO.ProductDAO;
-import com.MyProject.restdemo.Service.EmployeeServiceImpl;
-import com.MyProject.restdemo.Service.ProductServiceImpl;
+import com.MyProject.restdemo.dao.EmployeeDAO;
+import com.MyProject.restdemo.dao.ProductDAO;
 import com.MyProject.restdemo.entity.Employee;
 import com.MyProject.restdemo.entity.Product;
 import com.MyProject.restdemo.entity.ResourceNotFoundException;
+import com.MyProject.restdemo.service.EmployeeServiceImpl;
+import com.MyProject.restdemo.service.ProductServiceImpl;
 
 @ExtendWith(MockitoExtension.class)
 public class ProductServiceTests {

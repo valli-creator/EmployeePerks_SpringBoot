@@ -20,17 +20,17 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.MyProject.restdemo.DAO.OrderDAO;
-import com.MyProject.restdemo.DAO.OrderProductDAO;
-import com.MyProject.restdemo.DAO.ProductDAO;
-import com.MyProject.restdemo.Service.EmployeeService;
-import com.MyProject.restdemo.Service.OrderServiceImpl;
+import com.MyProject.restdemo.dao.OrderDAO;
+import com.MyProject.restdemo.dao.OrderProductDAO;
+import com.MyProject.restdemo.dao.ProductDAO;
 import com.MyProject.restdemo.entity.Employee;
 import com.MyProject.restdemo.entity.Order;
 import com.MyProject.restdemo.entity.OrderProduct;
 import com.MyProject.restdemo.entity.OrderRequest;
 import com.MyProject.restdemo.entity.Product;
 import com.MyProject.restdemo.entity.ProductRequest;
+import com.MyProject.restdemo.service.EmployeeService;
+import com.MyProject.restdemo.service.OrderServiceImpl;
 
 @ExtendWith(MockitoExtension.class)
 public class OrderServiceTests {

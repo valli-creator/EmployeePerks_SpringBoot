@@ -26,12 +26,12 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import com.MyProject.restdemo.Service.EmployeeService;
-import com.MyProject.restdemo.Service.ProductService;
 import com.MyProject.restdemo.entity.Employee;
 import com.MyProject.restdemo.entity.Product;
 import com.MyProject.restdemo.rest.EmployeeRestController;
 import com.MyProject.restdemo.rest.ProductRestController;
+import com.MyProject.restdemo.service.EmployeeService;
+import com.MyProject.restdemo.service.ProductService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @WebMvcTest(controllers = ProductRestController.class)

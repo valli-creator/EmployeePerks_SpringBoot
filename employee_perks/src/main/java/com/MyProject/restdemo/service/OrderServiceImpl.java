@@ -1,4 +1,4 @@
-package com.MyProject.restdemo.Service;
+package com.MyProject.restdemo.service;
 
 import java.util.ArrayList;
 import java.sql.Date;
@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Service;
 
-import com.MyProject.restdemo.DAO.OrderDAO;
-import com.MyProject.restdemo.DAO.OrderProductDAO;
-import com.MyProject.restdemo.DAO.ProductDAO;
+import com.MyProject.restdemo.dao.OrderDAO;
+import com.MyProject.restdemo.dao.OrderProductDAO;
+import com.MyProject.restdemo.dao.ProductDAO;
 import com.MyProject.restdemo.entity.Employee;
 import com.MyProject.restdemo.entity.Order;
 import com.MyProject.restdemo.entity.OrderNotFoundException;

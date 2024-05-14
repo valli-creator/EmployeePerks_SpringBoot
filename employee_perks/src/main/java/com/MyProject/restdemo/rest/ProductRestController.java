@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.MyProject.restdemo.Service.ProductService;
 import com.MyProject.restdemo.entity.Product;
+import com.MyProject.restdemo.service.ProductService;
 
 @RestController
 @RequestMapping("/api")

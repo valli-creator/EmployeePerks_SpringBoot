@@ -31,9 +31,9 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import com.MyProject.restdemo.Service.EmployeeService;
 import com.MyProject.restdemo.entity.Employee;
 import com.MyProject.restdemo.rest.EmployeeRestController;
+import com.MyProject.restdemo.service.EmployeeService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @WebMvcTest(controllers = EmployeeRestController.class)

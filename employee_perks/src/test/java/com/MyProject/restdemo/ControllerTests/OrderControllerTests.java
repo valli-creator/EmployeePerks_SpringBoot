@@ -28,8 +28,6 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import com.MyProject.restdemo.Service.OrderService;
-import com.MyProject.restdemo.Service.ProductService;
 import com.MyProject.restdemo.entity.Order;
 import com.MyProject.restdemo.entity.OrderProduct;
 import com.MyProject.restdemo.entity.OrderRequest;
@@ -37,6 +35,8 @@ import com.MyProject.restdemo.entity.Product;
 import com.MyProject.restdemo.entity.ProductRequest;
 import com.MyProject.restdemo.rest.OrderRestController;
 import com.MyProject.restdemo.rest.ProductRestController;
+import com.MyProject.restdemo.service.OrderService;
+import com.MyProject.restdemo.service.ProductService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @WebMvcTest(controllers = OrderRestController.class)

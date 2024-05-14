@@ -1,4 +1,4 @@
-package com.MyProject.restdemo.Service;
+package com.MyProject.restdemo.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.MyProject.restdemo.DAO.EmployeeDAO;
-import com.MyProject.restdemo.DAO.ProductDAO;
+import com.MyProject.restdemo.dao.EmployeeDAO;
+import com.MyProject.restdemo.dao.ProductDAO;
 import com.MyProject.restdemo.entity.Employee;
 import com.MyProject.restdemo.entity.Order;
 import com.MyProject.restdemo.entity.Product;

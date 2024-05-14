@@ -19,8 +19,8 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.MyProject.restdemo.DAO.EmployeeDAO;
-import com.MyProject.restdemo.DAO.EmployeeDAOImpl;
+import com.MyProject.restdemo.dao.EmployeeDAO;
+import com.MyProject.restdemo.dao.EmployeeDAOImpl;
 import com.MyProject.restdemo.entity.Employee;
 
 import jakarta.persistence.EntityManager;

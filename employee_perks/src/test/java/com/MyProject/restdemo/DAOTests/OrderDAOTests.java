@@ -22,9 +22,9 @@ import org.springframework.boot.jdbc.EmbeddedDatabaseConnection;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
-import com.MyProject.restdemo.DAO.OrderDAO;
-import com.MyProject.restdemo.DAO.OrderDAOImpl;
-import com.MyProject.restdemo.DAO.ProductDAOImpl;
+import com.MyProject.restdemo.dao.OrderDAO;
+import com.MyProject.restdemo.dao.OrderDAOImpl;
+import com.MyProject.restdemo.dao.ProductDAOImpl;
 import com.MyProject.restdemo.entity.Employee;
 import com.MyProject.restdemo.entity.Order;
 import com.MyProject.restdemo.entity.OrderProduct;

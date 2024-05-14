@@ -1,4 +1,4 @@
-package com.MyProject.restdemo.DAO;
+package com.MyProject.restdemo.dao;
 
 import java.util.List;
 
